@@ -39,12 +39,19 @@ set magic
 " Show matching brackets when text indicator is over them
 set showmatch
 
+
+" Show line numbers
+set number
+
+" Show relative line numbers
+set relativenumber
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Key Bindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " set new key bind for avoiding escape key on leaving insert mode
-:imap kj <Esc>
+" :imap kj <Esc>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
