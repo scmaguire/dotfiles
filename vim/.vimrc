@@ -52,6 +52,7 @@ set relativenumber
 
 " set new key bind for avoiding escape key on leaving insert mode
 " :imap kj <Esc>
+:imap <Esc> <Esc>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
