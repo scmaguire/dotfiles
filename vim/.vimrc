@@ -4,10 +4,6 @@
 "                     "
 """""""""""""""""""""""
 
-" TODO: line numbers
-
-" TODO: relative line numbers up and down
-
 " TODO: total line numbers in the corner
 
 " TODO: navigation commnads update
@@ -62,4 +58,5 @@ set relativenumber
 " set syntax highlighting
 syntax enable
 
-
+" set vim color theme to monokai from https://github.com/sickill/vim-monokai.git
+colorscheme monokai
