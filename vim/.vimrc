@@ -6,10 +6,10 @@
 
 " TODO: total line numbers in the corner
 
-" TODO: navigation commnads update
+" TODO: navigation commands update
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => VIM user interface
+" VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Always show current position
 set ruler
@@ -43,16 +43,14 @@ set number
 set relativenumber
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Key Bindings
+" Key Bindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" set new key bind for avoiding escape key on leaving insert mode
-" :imap kj <Esc>
-:imap <Esc> <Esc>
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Colors and Fonts
+" Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " set syntax highlighting
