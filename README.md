@@ -4,20 +4,24 @@ configuration files
 
 ## vim
 
-#.vimrc
+.vimrc
+
 vim configuration file
 
-#.vim
+.vim
+
 vim folder containing vim themes
 
 
 ## tmux
 
-#.tmux.conf
+.tmux.conf
+
 tmux configuration file
 
 
 ## zsh
 
-#.zshrc
+.zshrc
+
 z shell configuration file
