@@ -65,5 +65,7 @@ inoremap <Right> <nop>
 " set syntax highlighting
 syntax enable
 
+" set vim color theme to desert before monokai (for yellow part) // BROKEN RIGHT NOW
+colorscheme desert
 " set vim color theme to monokai from https://github.com/sickill/vim-monokai.git
 colorscheme monokai
