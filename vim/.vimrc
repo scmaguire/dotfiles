@@ -46,8 +46,17 @@ set relativenumber
 " Key Bindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-
-
+" Disable the arrow keys in vim as God intended
+" normal mode
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+" insert mode
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors and Fonts
