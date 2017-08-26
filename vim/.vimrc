@@ -8,6 +8,8 @@
 
 " TODO: navigation commands update
 
+" TODO: Vundle package manager
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -35,6 +37,8 @@ set magic
 " Show matching brackets when text indicator is over them
 set showmatch
 
+" Use system keyboard by default on OSX (requires vim 7.4+)
+set clipboard=unnamed
 
 " Show line numbers
 set number
