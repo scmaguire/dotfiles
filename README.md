@@ -10,7 +10,7 @@ vim configuration file
 
 .vim
 
-vim folder containing vim themes
+vim folder containing vim themes and Vundle Plugin's
 
 
 ## tmux
