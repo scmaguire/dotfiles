@@ -55,12 +55,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-
-
-" TODO: total line numbers in the corner
-
-" TODO: navigation commands update
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -96,6 +90,11 @@ set number
 
 " Show relative line numbers
 set relativenumber
+
+" move backup, swap, undo files to a standard location in /.vim
+set undodir=~/.vim/.undo//
+set backupdir=~/.vim/.backup//
+set directory=~/.vim/.swp//
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Key Bindings
