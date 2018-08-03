@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Volumes/Storage/Dropbox/code/dotfiles/vim/.vim'
+let g:netrw_dirhist_2='/Applications/Sublime Text.app'
+let g:netrw_dirhist_3='/Users/sean/.vim'

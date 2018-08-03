@@ -23,6 +23,22 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes' 
 
+" NERDTree plugin install
+Plugin 'scrooloose/NERDTree' 
+" start NERDTree when vim boots (even if no files are specified)
+" autocmd vimenter * NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" map NERDTree to a key binding Ctrl-n
+map <C-n> :NERDTreeToggle<CR>
+" be able to close vim if only NERDTree is left open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" change default arros in NERDTree
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+" let NERDTree close on open
+let NERDTreeQuitOnOpen = 1
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -95,6 +111,9 @@ set relativenumber
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
+
+" set spell check to F6
+map <F6> :setlocal spell! spelllang=en_us<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Key Bindings
