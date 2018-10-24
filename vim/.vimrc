@@ -23,6 +23,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes' 
 
+" install vim-fugitive git plugin
+Plugin 'tpope/vim-fugitive' 
+
 " NERDTree plugin install
 Plugin 'scrooloose/NERDTree' 
 " start NERDTree when vim boots (even if no files are specified)
