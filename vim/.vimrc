@@ -19,15 +19,14 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" vim-airline plugin install
+" Plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes' 
-
-" install vim-fugitive git plugin
 Plugin 'tpope/vim-fugitive' 
-
-" NERDTree plugin install
 Plugin 'scrooloose/NERDTree' 
+
+" Plugin configs
+
 " start NERDTree when vim boots (even if no files are specified)
 " autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
