@@ -15,4 +15,5 @@ cp ../zsh/.zshrc ~/.zshrc
 
 
 
+# TODO: switch to symlinks?
 
