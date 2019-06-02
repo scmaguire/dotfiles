@@ -43,6 +43,9 @@ set relativenumber
 " make backspace function properly
 set backspace=indent,eol,start
 
+" enable mouse support in vim
+set mouse=a 
+
 " move backup, swap, undo files to a standard location in /.vim
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
