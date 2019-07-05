@@ -1,0 +1,3 @@
+# ZSH Aliases
+alias v='vim'
+alias sv='sudo vim'
