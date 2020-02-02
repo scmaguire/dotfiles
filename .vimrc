@@ -118,5 +118,6 @@ nnoremap gb :ls<cr>:b
 syntax enable			" set syntax highlighting
 colorscheme desert		" set vim color theme to desert before monokai (for yellow part) // BROKEN RIGHT NOW
 colorscheme monokai		" set vim color theme to monokai from https://github.com/sickill/vim-monokai.git
+"colorscheme gruvbox 		" set vim color theme to grubbox https://github.com/morhetz/gruvbox
 
 
