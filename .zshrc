@@ -1,12 +1,10 @@
-# ZSH config
+# ~/.zshrc
 
 # .oh-my-zsh ideas
 # git integration
 # zsh theme
+# hostname fixes
 
-# hostname fix to sean-mba
-
-#$HOST=gnarbox
 #PS1=%n@%m %1~ %#	# current configuration by default
 
 

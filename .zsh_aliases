@@ -1,2 +1,3 @@
-# ZSH Aliases
+# ~/.zsh_aliases
+
 alias ll='ls -la'

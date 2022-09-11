@@ -1,6 +1,6 @@
 # General 
 * symlink files from git repository to home. symbolic links for dotfiles (ln -s /path/to/original /path/to/link)
-* private github repo for the dotfiles
+* private github repo for the dotfiles (?)
 
 # zsh
 * fix zsh aliases bug
