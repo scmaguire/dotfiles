@@ -7,6 +7,9 @@ echo "Installing zsh config..."
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.zsh_aliases ~/.zsh_aliases
 
+echo "Installing git config..."
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+
 echo "Installing vim config..."
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 
