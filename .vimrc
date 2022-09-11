@@ -9,7 +9,7 @@
 """""""""""""""""""""""
 set nocompatible
 filetype off 
-set rtp+=~/.vim/bundle/Vundle.vim	" set the runtime path to include Vundle and initialize
+set rtp+=~/dotfiles/.vim/bundle/Vundle.vim	" set the runtime path to include Vundle and initialize
 call vundle#begin()
 "call vundle#begin('~/some/path/here')	" alternatively, pass a path where Vundle should install plugins
 
@@ -17,33 +17,23 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes' 
-Plugin 'tpope/vim-fugitive' 
-Plugin 'tpope/vim-surround' 
-Plugin 'scrooloose/NERDTree' 
+"Plugin 'tpope/vim-fugitive' 
+"Plugin 'tpope/vim-surround' 
+"Plugin 'scrooloose/NERDTree' 
 " Language specific Plugins
 " python
-
 " rust
-
+"Plugin 'rust-lang/rust.vim'
 " linting
-
+"Plugin 'vim-syntastic/syntastic'
+" Color Schemes
+"Plugin 'sickill/vim-monokai'
+Plugin 'morhetz/gruvbox'
 call vundle#end()			" all plugins above this line
 filetype plugin indent on
 "filetype plugin on			" To ignore plugin indent changes, instead use:
 
 " Plugin Config
-" ************* 
-" autocmd vimenter * NERDTree		" start NERDTree when vim boots (even if no files are specified)
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-" map NERDTree to a key binding Ctrl-n
-map <C-n> :NERDTreeToggle<CR>
-" be able to close vim if only NERDTree is left open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-let g:NERDTreeDirArrowExpandable = '▸'	" change default arrows in NERDTree
-let g:NERDTreeDirArrowCollapsible = '▾'
-let NERDTreeQuitOnOpen = 1		" let NERDTree close on open
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General Config
@@ -61,9 +51,9 @@ set number				" Show line numbers
 set relativenumber			" Show relative line numbers
 set backspace=indent,eol,start		" make backspace function properly
 set mouse=a 		 		" enable mouse support in vim 
-set undodir=~/.vim/.undo//		" move backup, swap, undo files to a standard location in /.vim
-set backupdir=~/.vim/.backup//
-set directory=~/.vim/.swp//
+set undodir=~/dotfiles/.vim/.undo//		" move backup, swap, undo files to a standard location in /.vim
+set backupdir=~/dotfiles/.vim/.backup//
+set directory=~/dotfiles/.vim/.swp//
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -116,8 +106,8 @@ nnoremap gb :ls<cr>:b
 " Colors, Fonts and Themes
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable			" set syntax highlighting
-colorscheme desert		" set vim color theme to desert before monokai (for yellow part) // BROKEN RIGHT NOW
-colorscheme monokai		" set vim color theme to monokai from https://github.com/sickill/vim-monokai.git
-"colorscheme gruvbox 		" set vim color theme to grubbox https://github.com/morhetz/gruvbox
+colorscheme desert
+"colorscheme monokai		" set color theme https://github.com/sickill/vim-monokai.git
+"colorscheme gruvbox 		" set color theme https://github.com/morhetz/gruvbox.git
 
 

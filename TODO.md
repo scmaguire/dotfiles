@@ -2,15 +2,18 @@
 * symlink files from git repository to home. symbolic links for dotfiles (ln -s /path/to/original /path/to/link)
 * private github repo for the dotfiles
 
-# Shell Scripting
+# zsh
 * fix zsh aliases bug
-* tmux shortcut quick launch 
-* vim shortcut quick launch
 
 # vim
 * vim spellcheck and others from work .vimrc file
-* NeoVim?
+* simplify vimrc
 
 # tmux 
-* tmux powerline and shortcuts
+* tmux powerline and shortcuts clean up
 
+# vscode
+* add vim bindings (a few) to vscode vim plugin
+
+# ssh
+* add ssh config files
