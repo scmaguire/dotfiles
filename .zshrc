@@ -9,4 +9,4 @@
 
 
 # Aliases from another file
-source .zsh_aliases
+source ~/.zsh_aliases
