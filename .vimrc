@@ -36,9 +36,9 @@ set number				" Show line numbers
 set relativenumber			" Show relative line numbers
 set backspace=indent,eol,start		" make backspace function properly
 set mouse=a 		 		" enable mouse support in vim 
-set undodir=~/dotfiles/.vim/.undo//		" move backup, swap, undo files to a standard location in /.vim
-set backupdir=~/dotfiles/.vim/.backup//
-set directory=~/dotfiles/.vim/.swp//
+set undodir=~/.vim/.undo//		" move backup, swap, undo files to a standard location in /.vim
+set backupdir=~/.vim/.backup//
+set directory=~/.vim/.swp//
 
 
 " Key Bindings
@@ -74,4 +74,4 @@ nnoremap gb :ls<cr>:b                           " show list of buffers and quick
 
 " Colors, Fonts and Themes
 syntax enable			" set syntax highlighting
-colorscheme gruvbox 		" set color theme https://github.com/morhetz/gruvbox.git
+"colorscheme gruvbox 	" set color theme https://github.com/morhetz/gruvbox.git
